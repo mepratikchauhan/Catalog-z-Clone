@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg nav-light pt-0">
+        <div class="container-fluid">
+
+            <!-- Brand Name -->
+            <a href="#img" class="navbar-brand"><i class="bi bi-film pr-2"></i><span>Catalog-Z</span></a>
+
+            <!-- Toggle-button Start -->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#artProject">
+                <span><i class="bi bi-list"></i></span>
+            </button>
+            <!-- Toggle-button End -->
+
+            <!-- Navlinks Start -->
+            <div class="collapse navbar-collapse" id="artProject">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0" >
+                    <li class="nav-item">
+                        <a href="#photo" class="nav-link active nav-link-1 m-2">Photo</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#video" class="nav-link nav-link-2 m-2">Video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link nav-link-3 m-2">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link nav-link-4 m-2">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Navlinks Start -->
+           
+        </div>
+    </nav> 
+
+    <!-- HERO SECTION START -->
+    <section id="hero-Section">
+        <div class="container-fluid">
+            <div class="row py-3">
+
+
+                <div class="col-md-4 mx-auto position-relative py-5">
+
+                    <!-- INPUT START -->
+                    <div class="input-group my-3">
+                        
+                        <!-- INPUT LEFT -->
+                        <input type="text" class="form-control" placeholder="Search">
+
+                        <!-- INPUT RIGHT -->
+                        <div class="input-group-append">
+                            <a href="#">
+                                <span class="input-group-text" >
+                                    <i class="bi bi-search text-white py-2"></i>
+                                </span>
+                            </a>
+                        </div>
+
+                    </div>
+                    <!-- INPUT END -->
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- HERO SECTION START -->
+
+
+    <!-- PHOTO SECTION START -->
+     <section id="photo-cards">
+        <div class="container-fluid mt-3">
+            <div class="row">
+                <div class="col-md-6 my-4"> 
+                    <h2>Latest Photos</h2>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end align-items-center">
+                    <form action="" class="text-primary">
+                        Page <input type="text" value="1" size="1" class="input-paging text-primary text-center"> of 200
+                    </form>
+                </div>
+            </div>
+
+            <!-- PHOTOS START -->
+            <div class="row mb-5">
+
+                <!-- PHOTO 1 START -->
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-5">
+                    <figure class="position-relative">
+                        <img src="img/img-03.jpg" class="img-fluid " alt="Image">
+                        <figcaption class="figcaption">
+                            <a href="#phot-details" class="text-white text-decoration-none"><h3>CLOCKS</h3></a>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between">
+                        <span class="text-muted">18 Oct 2020</span>
+                        <span class="text-dark"> 9,906 views</span>
+                    </div>
+                </div>
+                <!-- PHOTO 1 END -->
+
+                <!-- PHOTO 2 START -->
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <figure class="position-relative">
+                        <img src="img/img-04.jpg" class="img-fluid " alt="Image">
+                        <figcaption class="figcaption">
+                            <a href="#phot-details" class="text-white text-decoration-none"><h3>PLANTS</h3></a>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between">
+                        <span class="text-muted">14 Oct 2020</span>
+                        <span class="text-dark">16,100 views</span>
+                    </div>
+                </div>
+                <!-- PHOTO 2 END -->
+
+                <!-- PHOTO 3 START -->
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <figure class="position-relative">
+                        <img src="img/img-05.jpg" class="img-fluid " alt="Image">
+                        <figcaption class="figcaption">
+                            <a href="#phot-details" class="text-white text-decoration-none"><h3>MORNING</h3></a>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between">
+                        <span class="text-muted">12 Oct 2020</span>
+                        <span class="text-dark">12,460 views</span>
+                    </div>
+                </div>
+                <!-- PHOTO 3 END -->
+
+                <!-- PHOTO 4 START -->
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <figure class="position-relative">
+                        <img src="img/img-06.jpg" class="img-fluid" alt="Image">
+                        <figcaption class="figcaption">
+                            <a href="#phot-details" class="text-white text-decoration-none"><h3>PINKY</h3></a>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between">
+                        <span class="text-muted">10 Oct 2020</span>
+                        <span class="text-dark"> 11,402 views</span>
+                    </div>
+                </div>
+                <!-- PHOTO 4 END -->
+
+                <!-- PHOTO 5 START -->
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-5">
+                    <figure class="position-relative">
+                        <img src="img/img-01.jpg" class="img-fluid " alt="Image">
+                        <figcaption class="figcaption">
+                            <a href="#phot-details" class="text-white text-decoration-none"><h3>HANGERS</h3></a>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between">
+                        <span class="text-muted">24 Sep 2020</span>
+                        <span class="text-dark">16,008 views</span>
+                    </div>
+                </div>
+                <!-- PHOTO 5 end -->
+
+                <!-- PHOTO 6 START -->
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <figure class="position-relative">
+                        <img src="img/img-02.jpg" class="img-fluid " alt="Image">
+                        <figcaption class="figcaption">
+                            <a href="#phot-details" class="text-white text-decoration-none"><h3>PERFUMES</h3></a>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between">
+                        <span class="text-muted">20 Sep 2020</span>
+                        <span class="text-dark">12,860 views</span>
+                    </div>
+                </div>
+                <!-- PHOTO 6 END -->
+
+                <!-- PHOTO 7 START -->
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-5">
+                    <figure class="position-relative">
+                        <img src="img/img-07.jpg" class="img-fluid " alt="Image">
+                        <figcaption class="figcaption">
+                            <a href="#phot-details" class="text-white text-decoration-none"><h3>BUS</h3></a>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between">
+                        <span class="text-muted">16 Sep 2020</span>
+                        <span class="text-dark">10,900 views</span>
+                    </div>
+                </div>
+                <!-- PHOTO 7 END -->
+
+                <!-- PHOTO 8 START -->
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-5">
+                    <figure class="position-relative">
+                        <img src="img/img-08.jpg" class="img-fluid " alt="Image">
+                        <figcaption class="figcaption">
+                            <a href="#phot-details" class="text-white text-decoration-none"><h3>NEW YORK</h3></a>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between">
+                        <span class="text-muted">12 Sep 2020</span>
+                        <span class="text-dark">11,300 views</span>
+                    </div>
+                </div>
+                <!-- PHOTO 8 END -->
+
+                <!-- PHOTO 9 START -->
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-5">
+                    <figure class="position-relative">
+                        <img src="img/img-09.jpg" class="img-fluid " alt="Image">
+                        <figcaption class="figcaption">
+                            <a href="#phot-details" class="text-white text-decoration-none"><h3>ABSTRACT</h3></a>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between">
+                        <span class="text-muted">10 Sep 2020</span>
+                        <span class="text-dark">42,700 views</span>
+                    </div>
+                </div>
+                <!-- PHOTO 9 END -->
+
+
+                <!-- PHOTO 10 START-->
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-5">
+                    <figure class="position-relative">
+                        <img src="img/img-10.jpg" class="img-fluid " alt="Image">
+                        <figcaption class="figcaption">
+                            <a href="#phot-details" class="text-white text-decoration-none"><h3>FLOWERS</h3></a>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between">
+                        <span class="text-muted">08 Sep 2020</span>
+                        <span class="text-dark">11,402 views</span>
+                    </div>
+                </div>
+                <!-- PHOTO 10 END -->
+
+                <!-- PHOTO 11 START -->
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-5">
+                    <figure class="position-relative">
+                        <img src="img/img-11.jpg" class="img-fluid " alt="Image">
+                        <figcaption class="figcaption">
+                            <a href="#phot-details" class="text-white text-decoration-none"><h3>ROSY</h3></a>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between">
+                        <span class="text-muted">04 Sep 2020</span>
+                        <span class="text-dark">32,906 views</span>
+                    </div>
+                </div>
+                <!-- PHOTO 11 END -->
+
+                <!-- PHOTO 12 START -->
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-5">
+                    <figure class="position-relative">
+                        <img src="img/img-12.jpg" class="img-fluid " alt="Image">
+                        <figcaption class="figcaption">
+                            <a href="#phot-details" class="text-white text-decoration-none"><h3>ROCKI</h3></a>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between">
+                        <span class="text-muted">20 Aug 2020</span>
+                        <span class="text-dark">50,700 views</span>
+                    </div>
+                </div>
+                <!-- PHOTO 12 END -->
+
+
+                <!-- PHOTO 13 START -->
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <figure class="position-relative">
+                        <img src="img/img-13.jpg" class="img-fluid " alt="Image">
+                        <figcaption class="figcaption">
+                            <a href="#phot-details" class="text-white text-decoration-none"><h3>PURPLE</h3></a>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between">
+                        <span class="text-muted">22 Aug 2020</span>
+                        <span class="text-dark">107,510 views</span>
+                    </div>
+                </div>
+                <!-- PHOTO 13 END -->
+
+                <!-- PHOTO 14 START-->
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <figure class="position-relative">
+                        <img src="img/img-14.jpg" class="img-fluid " alt="">
+                        <figcaption class="figcaption">
+                            <a href="#phot-details" class="text-white text-decoration-none"><h3>SEAS</h3></a>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between">
+                        <span class="text-muted">14 Aug 2020</span>
+                        <span class="text-dark">118,006 views</span>
+                    </div>
+                </div>
+                <!-- PHOTO 14 END -->
+
+                <!-- PHOTO 15 START -->
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <figure class="position-relative">
+                        <img src="img/img-15.jpg" class="img-fluid " alt="Image">
+                        <figcaption class="figcaption">
+                            <a href="#phot-details" class="text-white text-decoration-none"><h3>TURTLE</h3></a>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between">
+                        <span class="text-muted">09 Aug 2020</span>
+                        <span class="text-dark">121,300 views</span>
+                    </div>
+                </div>
+                <!-- PHOTO 15 END -->
+
+                <!-- PHOTO 16 START -->
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <figure class="position-relative">
+                        <img src="img/img-16.jpg" class="img-fluid " alt="Imaw">
+                        <figcaption class="figcaption">
+                            <a href="#phot-details" class="text-white text-decoration-none"><h3>PEACE</h3></a>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between">
+                        <span class="text-muted">03 Aug 2020</span>
+                        <span class="text-dark">21,204 views</span>
+                    </div>
+                </div>
+                <!-- PHOTO 16 END -->
+            </div>
+            <!-- PHOTOS END -->
+
+        </div>
+     </section>
+    <!-- PHOTO SECTION END -->
+
+    <!-- PAGINATION START -->
+    <div class="container-fluid mt-5" id="pagination">
+        <div class="row my-5">
+           <div class="col-12 paging-col my-5 d-flex justify-content-between align-items-center">
+               <a href="#" class="btn btn-primary btn-lg disabled">Previous</a>
+                <div class="paging d-flex">
+                    <a href="#" class="page-link active">1</a>
+                    <a href="#" class="page-link">2</a>
+                    <a href="#" class="page-link">3</a>
+                    <a href="#" class="page-link">4</a>
+                </div>
+               <a href="#" class="btn btn-primary btn-lg">Next</a>
+           </div>
+        </div>
+    </div>
+    <!-- PAGINATION END -->
+
+    <!-- FOOTER START -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 mt-5">
+                    <h5 class="mb-2">About Catalog-Z</h5>
+                    <p class="text-secondary pt-4">Catalog-Z is free <a href="#" class="text-primary">Bootstrap 5</a>  Alpha 2 HTML Template for video and photo websites. You can freely use this TemplateMo layout for a front-end integration with any kind of CMS website.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-5 d-flex justify-content-md-center">
+                    <ul class="nav flex-column">
+                        <h5 class="ml-3">Our Links</h5>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-secondary">Advertise</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-secondary">Support</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-secondary">Our Company</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-secondary">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-5">
+                    <ul class="list-inline justify-content-md-end d-flex" id="social-icon">
+                        <li class="list-inline-item">
+                            <a href="#" class="btn btn-light btn-icon"><i class=" bi bi-facebook"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="btn btn-light btn-icon"><i class=" bi bi-twitter"></i></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="btn btn-light btn-icon"><i class=" bi bi-instagram"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="btn btn-light btn-icon"><i class=" bi bi-pinterest"></i></a>
+                        </li>
+                    </ul>
+
+                    <div class="d-flex flex-column justify-content-md-end align-items-md-end mt-3">
+                        <a href="#" class="text-decoration-none text-secondary pt-3">Terms of Use</a>
+                        <a href="#" class="text-decoration-none text-secondary pt-3">Privacy Policy</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 my-4 pt-3 pt-md-0 text-center  text-md-left text-secondary">Copyright 2020 Catalog-Z Company. All rights reserved.</div>
+                <div class="col-md-6 text-md-right my-md-4 text-center text-secondary">Designed by TemplateMo</div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <!-- Js -->
+    <script src="attribution.js"></script>
+    <script src="plugins.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.paging .active').css('background','#009999')
+            $('.paging .active').css('color','#fff')
+        })
+    </script>
+</body>
+</html>

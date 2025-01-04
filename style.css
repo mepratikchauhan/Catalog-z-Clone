@@ -1,0 +1,125 @@
+/* NAVBAR */
+#artProject li a{
+    font-size: 19.2px;
+    color: #666666;
+    border-bottom: 5px solid transparent;
+    display: inline-block;
+}
+#artProject i,span{
+    color: #3399cc;
+}
+#artProject a,span:hover{
+    color: #2692b6;
+}
+nav .navbar-brand{
+    font-size: 26px;
+}
+#artProject li .nav-link-1{
+    border-bottom: 4px solid #33CCFF;
+    border-radius: 2px;
+}
+#artProject li .nav-link-1:hover{
+   color: #2692b6;
+}
+#artProject li .nav-link-2:hover{
+    border-bottom: 4px solid #FF666d;
+    border-radius: 2px;
+    color: #2692b6;
+}
+#artProject li .nav-link-3:hover{
+    border-bottom: 4px solid #33CC66;
+    border-radius: 2px;
+    color: #2692b6;
+}
+#artProject li .nav-link-4:hover{
+    border-bottom: 4px solid #0d6efd;
+    border-radius: 2px;
+    color: #2692b6;
+}
+.navbar-toggler-icon{
+    color: #000;
+}
+
+/* HERO SECTION */
+#hero-Section .container-fluid{
+    background-image: url(img/hero.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+/* Custom CSS for placeholder text color */
+ input::placeholder {
+    color: #009999 !important; /* Tomato color */
+}
+#hero-Section a span{
+    background-color: #009999;
+    padding: 0 40px;
+    height: 50px;
+    border-radius: 0;
+}
+#hero-Section a span:hover{
+    background-color: green;
+}
+/* PHOTO CARDS */
+#photo-cards h2{
+    color: #009999;
+}
+
+/* PHOTOS */
+.figcaption{
+    position: absolute;
+    background-color: #00000088;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    cursor: pointer;
+}
+.figcaption h3{
+    font-weight:200;
+}
+figcaption:hover{
+    opacity: 1;
+    border: 25px solid rgba(163, 156, 156, 0.788);
+    transition: all 0.3s ease;
+}
+/* FOOTER */
+footer{
+    background-color: rgba(202, 196, 196, 0.568);
+}
+footer h5{
+    color: #009999;
+}
+#pagination .paging a{
+    width: 80px;
+    height: 50px;
+    padding: 8px;
+    text-align: center;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+#pagination .paging a:hover{
+    background-color: #009999;
+    color: #fff;
+}
+footer #social-icon a:hover{
+    background-color: #009999;
+    color: #fff;
+}
+
+@media (max-width:594px) {
+    #pagination .paging a{
+        width: 40px;
+        height: 50px;
+        margin-left: 10px;
+    } 
+}
+@media (max-width:420px) {
+    #pagination .paging a{
+        width: 25px;
+        height: 40px;
+        margin-left: 10px;
+    } 
+}
